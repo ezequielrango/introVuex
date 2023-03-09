@@ -10,7 +10,7 @@
         <h1>mapState</h1>
         <h1>mapState: {{ count }}</h1>
         <h2>lastMutation: {{ lastMutation }}</h2>
-        <h2>Direct Getters: {{ $store.getters.square }}</h2>
+        <h2>Direct Getters: {{ $store.getters['counter/squareCount'] }}</h2>
     </div>
 </template>
 
